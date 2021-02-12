@@ -1,0 +1,8 @@
+image: jordengerovac/jhipster:0.0.1-SNAPSHOT
+dbms: mysql
+healthCheckPath: "/management/health"
+roles:
+  - "jhipster-admin"
+  - "project-admin"
+  - "customer-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
